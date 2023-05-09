@@ -33,8 +33,8 @@
 
 .page {
     font-family: 'Inter', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background-color: #2A2C2F;
     width: 100%;
     padding-top: 28px;
