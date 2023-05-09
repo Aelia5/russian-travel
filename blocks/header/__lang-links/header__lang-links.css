@@ -1,0 +1,15 @@
+.header__lang-links {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-links {
+        padding-top: 14px;
+    }
+    
+}
