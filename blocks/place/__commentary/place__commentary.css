@@ -3,7 +3,7 @@
     padding: 0 0 26px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.63;
+    line-height: 1.625;
     color: #fff;
 }
 
@@ -13,18 +13,19 @@
 @media screen and (max-width: 1024px) {
     .place__commentary {
         font-size: calc( (100vw - 768px)/(1024 - 769) * (18 - 16) + 16px);
-        }    
+        }
     }
 
 @media screen and (max-width: 768px) {
     .place__commentary {
         font-size: 16px;
-        padding: 0 0 25px;
+        padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__commentary {
-        padding: 0 16px 25px;
-    }
+        padding-left: 16px;
+        padding-right: 16px;
+        }
 }

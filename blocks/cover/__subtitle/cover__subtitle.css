@@ -12,11 +12,15 @@
 @media screen and (max-width: 768px) {
     .cover__subtitle {
        font-size: calc( (100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
-       margin: 0 17.86%;
-        } }   
+       margin-left: 17.86%;
+       margin-right: 17.86%;
+        }
+}
 
  @media screen and (max-width: 460px) {
     .cover__subtitle {
        line-height: 1.14;
-       margin: 0;
-        } }   
+       margin-left: 0;
+       margin-right: 0;
+        }
+  }

@@ -7,14 +7,12 @@
 @media screen and (max-width: 1093px) {
     .lead__image {
         width: 90.6%;
-        object-fit: contain;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
         width: 100%;
-        object-fit: contain;
     }
     
 }

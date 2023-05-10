@@ -6,13 +6,13 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin: 0 auto 88px;
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover {
-        margin: 0 auto 64px;
+        margin-bottom: 64px;
     }
-    
+
 }

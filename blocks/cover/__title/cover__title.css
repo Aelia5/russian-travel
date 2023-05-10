@@ -3,7 +3,7 @@
     z-index: 2;
     font-size: 72px;
     line-height: 1.06;
-    font-weight: bold;
+    font-weight: 900;
     margin: 0;
     padding: 0 0 32px;
     text-align: center;
@@ -12,10 +12,10 @@
 @media screen and (max-width: 768px) {
     .cover__title {
        font-size: calc( (100vw - 320px)/(768 - 320) * (72 - 32) + 32px);
-        } }   
+        } }
 
  @media screen and (max-width: 425px) {
     .cover__title {
        line-height: 1.09;
-       padding: 0 0 16px;   
- } }   
+       padding-bottom: 16px;
+ } }
